@@ -1,0 +1,59 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135fgh, #8cb1a9, #114453);
+
+
+}
+ .cal{
+    border: 1px solid;
+    padding: 25px;
+    border-radius: 20px;
+    background: transparent;
+ }
+ input{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    border: transparent;
+    padding: 5px;
+    font-size: 20px;
+    text-align: right;
+    box-shadow: 0px 3px 15px rgb(36, 38, 36);
+    cursor: pointer;
+    margin: 5px;
+    background: transparent;
+    margin-bottom: 15px;    
+    color: black;
+ }
+ button{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 50px;
+    border: transparent;
+    background:transparent;
+    color: rgb(100, 100, 200);
+    box-shadow: 0px 3px 15px rgb(36, 38, 36);
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .cal div{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+ }
+ .operator{
+  background-color: #8cb1a9;
+  color: #000000;
+  font-weight: bold;
+ }
